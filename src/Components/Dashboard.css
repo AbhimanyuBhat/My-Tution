@@ -1,0 +1,104 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar, .profile-sidebar {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    flex-shrink: 0;
+  }
+  
+  .sidebar-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-nav ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar-nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar-nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .main-header {
+    margin-bottom: 20px;
+  }
+  
+  .recent-activity ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-activity ul li {
+    margin: 10px 0;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .courses-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .course-card {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-card h3 {
+    margin-top: 0;
+  }
+  
+  .course-card button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .course-card button:hover {
+    background-color: #45a049;
+  }
+  
+  .profile-header {
+    text-align: center;
+  }
+  
+  .profile-header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .profile-details {
+    margin-top: 20px;
+  }
+  
